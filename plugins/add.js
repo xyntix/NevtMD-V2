@@ -30,9 +30,9 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 		var number = text
   }
 
-  if(!text && !m.quoted) return conn.reply(m.chat, `*❏ ADD NUMBER*\n\n• \`\`\`\Tag user:\`\`\`\ *${usedPrefix}add @Tag*\n• \`\`\`\Type Number:\`\`\`\ *${usedPrefix}add 6289654360447*`, m)
-    if(isNaN(number)) return conn.reply(m.chat, `*❏ ADD NUMBER*\n\n• \`\`\`\Tag user:\`\`\`\ *${usedPrefix}add @Tag*\n• \`\`\`\Type Number:\`\`\`\ *${usedPrefix}add 6289654360447*`, m)
-    if(number.length > 15) return conn.reply(m.chat, `*❏ ADD NUMBER*\n\n• \`\`\`\Tag user:\`\`\`\ *${usedPrefix}add @Tag*\n• \`\`\`\Type Number:\`\`\`\ *${usedPrefix}add 6289654360447*`, m) 
+  if(!text && !m.quoted) return conn.reply(m.chat, `*❏ ADD NUMBER*\n\n• \`\`\`\Tag user:\`\`\`\ *${usedPrefix}add @Tag*\n• \`\`\`\Type Number:\`\`\`\ *${usedPrefix}add 𝓝𝓾𝓶𝓫𝓮𝓻*`, m)
+    if(isNaN(number)) return conn.reply(m.chat, `*❏ ADD NUMBER*\n\n• \`\`\`\Tag user:\`\`\`\ *${usedPrefix}add @Tag*\n• \`\`\`\Type Number:\`\`\`\ *${usedPrefix}add 𝓝𝓾𝓶𝓫𝓮𝓻*`, m)
+    if(number.length > 15) return conn.reply(m.chat, `*❏ ADD NUMBER*\n\n• \`\`\`\Tag user:\`\`\`\ *${usedPrefix}add @Tag*\n• \`\`\`\Type Number:\`\`\`\ *${usedPrefix}add 𝓝𝓾𝓶𝓫𝓮𝓻*`, m) 
   try {
 		if(text) {
 			var user = number + '@s.whatsapp.net'
